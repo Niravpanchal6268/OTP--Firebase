@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpfillActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/otp_svg_logo" />
+
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="25dp"
+        android:fontFamily="@font/avenirltstdheavy"
+        android:text="Enter Your Code"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/taxt_id_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_id"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:text="Please Enter the 6 digit verification code sent to" />
+
+    <TextView
+        android:id="@+id/reciver_mobile_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taxt_id_2"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:text="+8529674555"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/coutdown_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taxt_id_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="15dp"
+        android:text="60"
+        android:textColor="@color/black" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/otp_input_id"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reciver_mobile_id"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="OTP">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:autoText="true"
+            android:autofillHints="phone"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continue_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp_input_id"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="25dp"
+        android:paddingVertical="15dp"
+        android:text="Continue"
+        app:cornerRadius="7dp"
+        app:elevation="25dp" />
+
+
+</RelativeLayout>

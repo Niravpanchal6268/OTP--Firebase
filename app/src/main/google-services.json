@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140569013866",
+    "project_id": "mobile-no-authentication-f9c21",
+    "storage_bucket": "mobile-no-authentication-f9c21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140569013866:android:dc612da438a1225e0ba413",
+        "android_client_info": {
+          "package_name": "com.example.mobilenoauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140569013866-dhvdmgb5ucmdhd53hlu0hhq9pgvo7v25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4Nr46zdO2lWnvPTZlM3i_kV1YdSSJIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140569013866-dhvdmgb5ucmdhd53hlu0hhq9pgvo7v25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

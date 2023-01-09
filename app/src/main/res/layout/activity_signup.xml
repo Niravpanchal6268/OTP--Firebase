@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/otpsvg_image" />
+
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="25dp"
+        android:fontFamily="@font/avenirltstdheavy"
+        android:text="Enter your Mobile Number"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/taxt_id_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_id"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="25dp"
+        android:text="you will receive  6 digit of code for phone  \nnumber verification" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_phone_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taxt_id_2"
+        android:layout_marginHorizontal="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/taxt_id_2"
+            android:layout_marginEnd="10dp"
+            app:ccpDialog_allowSearch="false"
+            app:ccp_showFlag="false"
+            app:ccp_showFullName="false"
+            app:ccp_showNameCode="false" />
+
+        <EditText
+            android:id="@+id/mobile_input_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile No"
+            android:inputType="number"
+            />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sendOtp_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_phone_number_id"
+        android:layout_marginTop="25dp"
+        android:paddingVertical="15dp"
+        android:layout_marginHorizontal="45dp"
+        android:text="Send Otp"
+        app:cornerRadius="7dp"
+        app:elevation="25dp" />
+
+
+</RelativeLayout>
