@@ -43,6 +43,8 @@ dependencies {
     implementation 'com.hbb20:ccp:2.6.1'
 
     implementation 'com.google.android.gms:play-services-safetynet:18.0.1'
-    implementation 'androidx.browser:browser:1.4.0'
+
+
+
 
 }
