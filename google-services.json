@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1051327331046",
+    "firebase_url": "https://booking-app-79662-default-rtdb.firebaseio.com",
+    "project_id": "booking-app-79662",
+    "storage_bucket": "booking-app-79662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051327331046:android:12f5b66c65cce26840d927",
+        "android_client_info": {
+          "package_name": "com.example.bookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQg551DkbOrgc7-XKgX5fiiYFoTzdYzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051327331046:android:0f24be4255b9852440d927",
+        "android_client_info": {
+          "package_name": "com.example.firebasestoredatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051327331046-e3v3k9gju1ifltobaaju1e32uebm334a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasestoredatabase",
+            "certificate_hash": "32d46cd4665c9e10f274c1faab4372b71504b044"
+          }
+        },
+        {
+          "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQg551DkbOrgc7-XKgX5fiiYFoTzdYzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051327331046:android:7b0c905d17c8a79040d927",
+        "android_client_info": {
+          "package_name": "com.example.mobilenoauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQg551DkbOrgc7-XKgX5fiiYFoTzdYzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051327331046-2ntl0h89076gh0d8o47n1e0a82s6melm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
