@@ -1,16 +1,14 @@
-package com.example.mobilenoauthentication;
+package com.example.mobilenoauthentication.Otp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.example.mobilenoauthentication.R;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.textfield.TextInputLayout;
 import com.hbb20.CountryCodePicker;
 
 public class SignUpActivity extends AppCompatActivity {

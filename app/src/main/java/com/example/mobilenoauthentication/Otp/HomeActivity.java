@@ -1,8 +1,10 @@
-package com.example.mobilenoauthentication;
+package com.example.mobilenoauthentication.Otp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.mobilenoauthentication.R;
 
 public class HomeActivity extends AppCompatActivity {
 
